@@ -1,12 +1,19 @@
-/* body {
-	font-family: 'Merriweather', sans-serif;
-	
+/**********************************/
+/* Main formatting
+/*********************************/
+
+body {
+	font-family: 'Merriweather', serif;
 }
 
 h1 {
 	text-align: center;
 	
 }
+
+/*******************************/
+/* Drop-down menu
+/*******************************/
 
 nav ul {
 	background-color: #FFFF6E;
@@ -21,25 +28,36 @@ nav ul  li {
 	padding: 0 20px;
 	display: inline-table;
 	
-} */
+}
  
-/* #sub-menu {
+nav ul ul{
 	display: none;
 	border-radius: 0px; 
 	padding: 0;
 	position: absolute; 
 	top: 100%;
-} */
+}
 
-nav ul li:hover #sub-menu {
-	display: inline;
+nav li:hover ul {
+	display: block;
 	background-color: #FFFF6E;
 }
 
-input {
-	margin: 10px;
+/* why is this needed to get block display? */
 
-	
+nav ul li:hover ul li {
+	display: block;
 }
 
-	
+
+
+
+/**************************/
+/* Input fields
+/**************************/
+
+
+input {
+	margin: 10px;
+}
+
