@@ -4,6 +4,7 @@ from flask import render_template
 app = Flask(__name__)
 
 @app.route('/')
+@app.route('/index.html')
 def index():
   return render_template("index.html")
   
@@ -35,5 +36,5 @@ def add_staff():
 @app.route('/add_vendor.html')
 def add_vendor():
   return render_template("add_vendor.html")
-  
+    
 app.run(debug=True)

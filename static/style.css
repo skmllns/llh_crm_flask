@@ -15,7 +15,7 @@ h1 {
 /* Drop-down menu
 /*******************************/
 
-nav ul {
+nav > ul {
 	background-color: #FFFF6E;
 	text-align: center;
 	list-style: none;
@@ -49,6 +49,19 @@ nav ul li:hover ul li {
 	display: block;
 }
 
+a:link{
+	text-decoration: none;
+}
+
+a:visited {
+	color: #000;
+}
+
+/* fix this, random words turning colors */
+a:hover {
+	color: #a92;
+	
+}
 
 
 
