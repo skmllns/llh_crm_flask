@@ -1,4 +1,4 @@
-body {
+/* body {
 	font-family: 'Merriweather', sans-serif;
 	
 }
@@ -20,19 +20,26 @@ nav ul {
 nav ul  li {
 	padding: 0 20px;
 	display: inline-table;
-}
+	
+} */
  
-nav ul ul {
+/* #sub-menu {
 	display: none;
 	border-radius: 0px; 
 	padding: 0;
 	position: absolute; 
 	top: 100%;
+} */
+
+nav ul li:hover #sub-menu {
+	display: inline;
+	background-color: #FFFF6E;
 }
 
-nav ul li:hover > ul {
-	display: block;
-	background-color: #FFFF6E;
+input {
+	margin: 10px;
+
+	
 }
 
 	
